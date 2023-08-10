@@ -1,0 +1,16 @@
+test_1_combination (__main__.AnalyzerTestSuite.test_1_combination) ... ok
+test_1_face_counts (__main__.AnalyzerTestSuite.test_1_face_counts) ... ok
+test_1_jackpot (__main__.AnalyzerTestSuite.test_1_jackpot) ... ok
+test_1_permutation (__main__.AnalyzerTestSuite.test_1_permutation) ... ok
+test_2_face_counts (__main__.AnalyzerTestSuite.test_2_face_counts) ... ok
+test_1_change_weight (__main__.DieTestSuite.test_1_change_weight) ... ok
+test_1_curr_state (__main__.DieTestSuite.test_1_curr_state) ... ok
+test_1_roll_die (__main__.DieTestSuite.test_1_roll_die) ... ok
+test_1_play (__main__.GameTestSuite.test_1_play) ... ok
+test_1_results (__main__.GameTestSuite.test_1_results) ... ok
+test_2_results (__main__.GameTestSuite.test_2_results) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.065s
+
+OK
