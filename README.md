@@ -7,7 +7,9 @@ This Python module can use multiple similar die of varying weights with numeric 
 To use this module, import the Die, Game and Analyzer classes from the "montecarlo" package. Please see the Python code below:
 
   from montecarlo import Die
+  
   from montecarlo import Game
+  
   from montecarlo import Analyzer
 
 Die Class
