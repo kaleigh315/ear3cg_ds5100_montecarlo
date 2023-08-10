@@ -114,8 +114,9 @@ where "analyzer_object" is an analyzer object.
 
 ## API Description
 
+See list of all classes with their public methods and attributes below.
 
-`class Analyzer(builtins.object)
+class Analyzer(builtins.object)
      |  Analyzer(game_object)
      |  
      |  An Analyzer object takes the results of a single game and computes various descriptive statistical properties about it.
@@ -156,7 +157,7 @@ where "analyzer_object" is an analyzer object.
      |      dictionary for instance variables (if defined)
      |  
      |  __weakref__
-     |      list of weak references to the object (if defined)`
+     |      list of weak references to the object (if defined)
     
     class Die(builtins.object)
      |  Die(face)
@@ -225,5 +226,5 @@ where "analyzer_object" is an analyzer object.
      |              or in "wide" form (with roll number as named index, die number as columns and face rolled in that instance in each cell)
      |      
      |      OBJECT CHANGES:
-     |      result_df  a data frame with orientation of results will change to a MultiIndex, comprising the roll number and the die number (in that order), and a single column with the outcomes if "narrow" form is selected`
+     |      result_df  a data frame with orientation of results will change to a MultiIndex, comprising the roll number and the die number (in that order), and a single column with the outcomes if "narrow" form is selected
 
