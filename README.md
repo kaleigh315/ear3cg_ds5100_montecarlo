@@ -114,6 +114,7 @@ where "analyzer_object" is an analyzer object.
 
 ## API Description
 
+
 class Analyzer(builtins.object)
      |  Analyzer(game_object)
      |  
