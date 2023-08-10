@@ -11,13 +11,16 @@ To use this module, import the Die, Game and Analyzer classes from the "montecar
   from montecarlo import Analyzer
 
 Die Class
+
   class Die:
+  
     """
     A die has a given number of sides, or "faces," and a given number of weights, and can be rolled to select a face.
       Each side contains a unique symbol. Symbols may be all alphabetic or all numeric.
       The weights are just numbers, not a normalized probability distribution.
       The die has one behavior, which is to be rolled one or more times.
     """
+    
     def __init__(self, face):
           """
           PURPOSE: This is the object initializer that is called when an instance of the Die class is created.
@@ -56,14 +59,18 @@ Die Class
         
         RETURN: This function returns a copy of the dice object data frame.
         """
+        
 Game Class:
+
   class Game: 
+  
     """
     A game consists of rolling of one or more similar dice (Die objects) one or more times.
     Each game is initialized with a Python list that contains one or more dice.
     Game objects have a behavior to play a game, i.e. to roll all of the dice a given number of times.
     Game objects only keep the results of their most recent play.
     """
+    
     def __init__(self, dice):
         """
         PURPOSE: This is the object initializer that is called when an instance of the Game class is created.
@@ -100,10 +107,13 @@ Game Class:
         """
 
 Analyzer Class:
+
   class Analyzer: 
+  
     """
     An Analyzer object takes the results of a single game and computes various descriptive statistical properties about it.
     """
+    
     def __init__(self, game_object):
         """
         PURPOSE: This function takes a game object as its input parameter. It throwa a ValueError if the passed value is not a Game object.
