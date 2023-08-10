@@ -117,48 +117,48 @@ where "analyzer_object" is an analyzer object.
 See list of all classes with their public methods and attributes below.
 
 ```
-`class Analyzer(builtins.object)`
-     `|  Analyzer(game_object)`
-     `|`  
-     `|  An Analyzer object takes the results of a single game and computes various descriptive statistical properties about it.`
-     `|`  
-     `|  Methods defined here:`
-     `|`  
-     `|  combination(self)`
-     `|      PURPOSE: This function computes the distinct combinations of faces rolled, along with their counts.`
-     `|`     
-     `|      RETURN:`
-     `|      combo_df  a data frame of the count of order-independent, distinct combinations with a MultiIndex of distinct combinations and a column for the associated counts`
-     `|` 
-     `|  face_counts(self)`
-     `|      PURPOSE: This function computes how many times a given face is rolled in each event.`
-     `|`      
-     `|      RETURN:`
-     `|      countval_df  a data frame with an index of the roll number, face values as columns, and count values in the cells (i.e. it is in wide format)`
-     `|`      
-     `|      OBJECT CHANGES:`
-     `|      countval_df  creates a data frame with count of face values in the cells`
-     `|`  
-     `|  jackpot(self)`
-     `|      PURPOSE: This function calculates how many jackpots (a result in which all faces are the same) are rolled in a game.`
-     `|`      
-     `|      RETURN:`
-     `|      jackpot_count  integer for the number of jackpots`
-     `|`  
-     `|  permutation(self)`
-     `|      PURPOSE: This function computes the distinct permutations of faces rolled, along with their counts.`
-     `|`      
-     `|      RETURN:`
-     `|      combo_df  a data frame of the count of order-dependent, distinct permutations with a MultiIndex of distinct combinations and a column for the associated counts`
-     `|`  
-     `|  ----------------------------------------------------------------------`
-     `|  Data descriptors defined here:`
-     `|`
-     `|  __dict__`
-     `|      dictionary for instance variables (if defined)`
-     `|`  
-     `|  __weakref__`
-     `|      list of weak references to the object (if defined)`
+class Analyzer(builtins.object)
+     |  Analyzer(game_object)
+     |  
+     |  An Analyzer object takes the results of a single game and computes various descriptive statistical properties about it.
+     | 
+     |  Methods defined here:
+     |  
+     |  combination(self)
+     |      PURPOSE: This function computes the distinct combinations of faces rolled, along with their counts.
+     |     
+     |      RETURN:
+     |      combo_df  a data frame of the count of order-independent, distinct combinations with a MultiIndex of distinct combinations and a column for the associated counts
+     | 
+     |  face_counts(self)
+     |      PURPOSE: This function computes how many times a given face is rolled in each event.
+     |      
+     |      RETURN:
+     |      countval_df  a data frame with an index of the roll number, face values as columns, and count values in the cells (i.e. it is in wide format)
+     |      
+     |      OBJECT CHANGES:
+     |      countval_df  creates a data frame with count of face values in the cells
+     |  
+     |  jackpot(self)
+     |      PURPOSE: This function calculates how many jackpots (a result in which all faces are the same) are rolled in a game.
+     |      
+     |      RETURN:
+     |      jackpot_count  integer for the number of jackpots
+     |  
+     |  permutation(self)
+     |      PURPOSE: This function computes the distinct permutations of faces rolled, along with their counts.
+     |     
+     |      RETURN:
+     |      combo_df  a data frame of the count of order-dependent, distinct permutations with a MultiIndex of distinct combinations and a column for the associated counts
+     |
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
 ```
     
     class Die(builtins.object)
