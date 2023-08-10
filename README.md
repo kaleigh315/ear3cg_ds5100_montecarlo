@@ -4,6 +4,9 @@
 
 This Python module can use multiple similar die of varying weights with numeric or string faces in the Die class. This die or these dice from the Die class can be used in the Game class to play a dice game and returns a data frame of the faces rolled. Additionally, in the Analyzer class, the module can analyze the outcomes by calculating the number of jackpots (a result in which all faces are the same), providing a data frame of the counts of each face and computing the distinction combinations and/or permutations of the dice rolls.
 
+The classes are related in the following way: Game objects are initialized with a Die object, and Analyzer objects are initialized with a Game object.
+
+
 To use this module, import the Die, Game and Analyzer classes from the "montecarlo" package. Please see the Python code below:
 
   from montecarlo import Die
