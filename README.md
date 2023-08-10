@@ -116,6 +116,7 @@ where "analyzer_object" is an analyzer object.
 
 See list of all classes with their public methods and attributes below.
 
+```
 `class Analyzer(builtins.object)`
      `|  Analyzer(game_object)`
      `|`  
@@ -158,6 +159,7 @@ See list of all classes with their public methods and attributes below.
      `|`  
      `|  __weakref__`
      `|      list of weak references to the object (if defined)`
+```
     
     class Die(builtins.object)
      |  Die(face)
