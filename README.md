@@ -156,7 +156,7 @@ where "analyzer_object" is an analyzer object.
      |      dictionary for instance variables (if defined)
      |  
      |  __weakref__
-     |      list of weak references to the object (if defined)
+     |      list of weak references to the object (if defined)`
     
     class Die(builtins.object)
      |  Die(face)
